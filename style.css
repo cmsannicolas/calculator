@@ -1,0 +1,65 @@
+.display {
+  width:220px;
+  position:relative;
+  left:15px;
+  top:20px;
+  height:40px;
+}
+
+.button {
+position:relative;
+top:30px;
+width:40px;
+height:30px;
+border:none;
+border-radius:8px;
+margin-left:17px;
+cursor:pointer;
+}
+
+.button.number {
+  background-color: #3399ff;
+}
+
+.button.number:active {
+  background-color: #3366ff;
+}
+
+.button.operator{
+  background-color: #cc99ff;
+}
+
+.button.operator:active {
+  background-color: #9900ff;
+}
+
+.button.clear {
+  background-color: #ffff99;
+}
+
+.button.clear:active {
+  background-color: #ffff00;
+}
+
+.button.equals {
+  background-color: #00cc99;
+}
+
+.button.equals:active {
+  background-color: #009973;
+}
+
+.keys {
+  position: relative;
+  top: 15px;
+}
+
+.box{
+background-color: #ff99cc;
+height:300px;
+width:260px;
+border-radius:10px;
+position:relative;
+top:80px;
+left:40%;
+}
